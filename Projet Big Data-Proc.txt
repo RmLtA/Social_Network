@@ -1,0 +1,14 @@
+Projet Big Data : 
+
+Procédure pour importer les données : 
+1) Générer les données dans le bon formatage pour être compris par Neo4j.
+	Utilisation de l'outil dans shortest-path
+2) Modification des headers des fichiers nodes.csv et relationships.csv
+	Utiliser :START_ID :END_ID :ID pour de faire comprendre de Neo4j
+3) Importer les données dans Neo4j
+	Commande : 
+	./bin/neo4j-import --into import.db --id-type string --nodes /Users/paulriviere/Documents/INSA\ Big\ Data/shortestpath_bench/data/generated/nodes.csv --relationships /Users/paulriviere/Documents/INSA\ Big\ Data/shortestpath_bench/data/generated/relationships.csv 
+4) (éventuellement) changer la base de données à charger lors du startup de Neo4j : 
+	Dans conf/neo4j-server.properties : 
+		changer la ligne : org.neo4j.server.database.location=/chemin/vers/db
+

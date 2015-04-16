@@ -1,0 +1,14 @@
+# Package Files #
+*.class
+.project
+.classpath
+.settings/
+.gitignore~
+.gitmodules~
+*.class
+target/
+bin/
+build.sh~
+README.md~
+db/
+data/generated/
