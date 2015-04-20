@@ -12,23 +12,17 @@ from snap import *
 
 def reader_info():	
 	#create a new graph
-	Graph = TUNGraph.New()
-
+	Graph = TNGraph.New()
+	
 	#reading fcbk file
-	f = open("facebook_combined.txt",'r')
+	f = open("C:\Users\Rasata Liantsoa\Documents\4INFO\BigData\projet\snap-1.1-2.3-Win-x64-py2.7\snap-1.1-2.3-Win-x64-py2.7\facebook_combined.txt",'r')
 	for ligne in f.readlines():
-		m = re.search(r"([0-9]+) ([0-9]+)", ligne)
-		nId = m.group(1)
-		if(not Graph.IsNode(int(nId)) ) :
-			Graph.AddNode(int(nId))
-
-		nId1 = m.group(2)
-		if(not Graph.IsNode(int(nId1))) :
-			Graph.AddNode(int(nId1))
-			
-		if(not Graph.IsEdge(int(nId),int(nId1))) : 
-			Graph.AddEdge(int(nId),int(nId1))
-
+		m = re.search(r"(?P<FromNodeId>\d+) (?P<ToNodeId>\d+)", ligne)
+		#fill the graph
+		if m is not None:
+			Graph.AddNode(FromNodeId)
+			Graph.AddNode(ToNodeId)
+			Graph.AddEdge(FromNodeId,ToNodeId)
 	f.close()
 	print "Graph: Nodes %d, Edges %d" % (Graph.GetNodes(), Graph.GetEdges())
 	
@@ -40,8 +34,8 @@ def reader_info():
     #GraphPNG = TNGraph.Load(FIn)
     #print "GraphPNG: Nodes %d, Edges %d" % (GraphPNG.GetNodes(), GraphPNG.GetEdges())
 	
-	DrawGViz(Graph, gvlDot, "graphFCBK.png", "graph 1")
-	print "Graph Viz generated ... "
+	snap.DrawGViz(Graph, snap.gvlDot, "graphFCBK.png", "graph 1")
+	
 	
 
 if __name__ == '__main__':
