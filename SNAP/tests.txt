@@ -1,0 +1,12 @@
+
+		
+
+		
+
+			
+
+			
+	
+	#generating the png graph	
+	DrawGViz(Graph, gvlDot, "0graph.png", "graph 1")
+	print "Graph Viz generated ... "
