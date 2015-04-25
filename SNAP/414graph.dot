@@ -1,5 +1,5 @@
 /*****
-graph 414
+graph 414 Net
 *****/
 
 digraph G {
@@ -3541,5 +3541,5 @@ digraph G {
   667 -> 594;
   642 -> 581;
   581 -> 642;
-  label = "\ngraph 414\n";  fontsize=24;
+  label = "\ngraph 414 Net\n";  fontsize=24;
 }
