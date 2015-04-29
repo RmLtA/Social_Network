@@ -33,5 +33,15 @@ org.neo4j.server.database.location=path/to/import.db
 
 ```
 
+## Bonus ! :)
+### Styling graph in Neo4j web browser
+It may occur that no information are displayed on nodes in a vizualisation window on Neo4j browser. Indeed, we have no information about nodes, except `ID`.  
+To display node `ID` you can modify the style file according to following :
+
+	node {
+	  /* what is normally */
+	  caption: '{id}'
+	}
+
 
 		
