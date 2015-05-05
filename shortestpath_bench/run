@@ -1,0 +1,1 @@
+mvn exec:java -Dexec.mainClass=org.neo4j.bench.shortestpath.InputFilesCreator -Dexec.arguments="undirected"

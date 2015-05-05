@@ -70,7 +70,7 @@ public class InputFilesCreator
             CsvFileWriter relationshipsWriter, Random random, DecimalFormat doubleFormat, boolean bidirectional )
             throws IOException
     {
-        relationshipsWriter.writeLine( "from", "to", "type", "weight@double" );
+        relationshipsWriter.writeLine( ":START_ID", ":END_ID", ":TYPE", "weight@double" );
         Set<Long> nodeIds = new HashSet<Long>();
         while ( relationshipsReader.hasNext() )
         {
@@ -96,7 +96,7 @@ public class InputFilesCreator
     private static void createNodeFile( Set<Long> nodeIds, CsvFileWriter nodesWriter, Random random,
             DecimalFormat doubleFormat ) throws IOException
     {
-        nodesWriter.writeLine( "id", "weight@double" );
+        nodesWriter.writeLine( ":ID", "weight@double" );
         for ( Long nodeId : nodeIds )
         {
             double weight = random.nextDouble();
