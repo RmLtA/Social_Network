@@ -1,1 +1,2 @@
+
 /Users/paulriviere/Downloads/neo4j-community-2.2.0/bin/neo4j-import --into /Users/paulriviere/Downloads/neo4j-community-2.2.0/import1.db --id-type string --nodes /Users/paulriviere/Documents/INSA\ Big\ Data/shortestpath_bench/data/generated1/nodes.csv  --relationships /Users/paulriviere/Documents/INSA\ Big\ Data/shortestpath_bench/data/generated1/relationships.csv 

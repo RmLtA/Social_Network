@@ -6,6 +6,7 @@
 ## install.packages("devtools")
 ## devtools::install_github("nicolewhite/RNeo4j")
 
+T1<- Sys.time()
 ## Chargement de la librairie
 library(RNeo4j)
 ## Connexion à la base de graphe
@@ -52,7 +53,11 @@ nodes_json = paste0("\"nodes\":", jsonlite::toJSON(nodes))
 edges_json = paste0("\"edges\":", jsonlite::toJSON(edges))
 all_json = paste0("{", nodes_json, ",", edges_json, "}")
 
-sink(file = 'actors.json')
+sink(file = '~/Documents/INSA Big Data/algoR/actors.json')
 cat(all_json)
 sink()
 
+T2<- Sys.time()
+
+Tdiff = difftime(T2,T1)
+Tdiff
