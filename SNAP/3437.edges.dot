@@ -1,0 +1,9 @@
+/*****
+graph3437.edges
+*****/
+
+graph G {
+  graph [splines=false overlap=false]
+  node  [shape=ellipse, width=0.3, height=0.3, label=""]
+  label = "\ngraph3437.edges\n";  fontsize=24;
+}

@@ -1,0 +1,81 @@
+Algorithm CNM :
+
+0.edges
+Graph: Nodes 333, Edges 2519
+Execution time : 0.010000
+Communities detected : 12
+The modularity of the network is 0.445852
+
+107.edges
+Graph: Nodes 1034, Edges 26749
+Execution time : 0.210000
+Communities detected : 11
+The modularity of the network is 0.458131
+
+348.edges
+Graph: Nodes 224, Edges 3192
+Execution time : 0.012000
+Communities detected : 6
+The modularity of the network is 0.248298
+
+414.edges
+Graph: Nodes 150, Edges 1693
+Execution time : 0.005000
+Communities detected : 5
+The modularity of the network is 0.543767
+
+--> GirvanNewman : 
+Execution time : 13.934000
+Communities detected : 4
+The modularity of the network is 0.543082
+
+686.edges
+Graph: Nodes 168, Edges 1656
+Execution time : 0.005000
+Communities detected : 5
+The modularity of the network is 0.543767
+
+--> GirvanNewman : 
+Execution time : 24.219000
+Communities detected : 19
+The modularity of the network is 0.146393
+
+698.edges
+Graph: Nodes 61, Edges 270
+Execution time : 0.001000
+Communities detected : 5
+The modularity of the network is 0.535336
+
+-->GirvanNewman :
+Execution time : 0.222000
+Communities detected : 7
+The modularity of the network is 0.509232
+
+1684.edges
+Graph: Nodes 786, Edges 14024
+Execution time : 0.127000
+Communities detected : 10
+The modularity of the network is 0.520823
+
+1912.edges
+Graph: Nodes 747, Edges 30025
+Execution time : 0.099000
+Communities detected : 6
+The modularity of the network is 0.521340
+
+3437.edges
+Graph: Nodes 534, Edges 4813
+Execution time : 0.022000
+Communities detected : 10
+The modularity of the network is 0.654974
+
+3980.edges
+Graph: Nodes 52, Edges 146
+Execution time : 0.035000
+Communities detected : 6
+The modularity of the network is 0.450178
+
+--> GirvanNewman : 
+Execution time : 0.076000
+Communities detected : 15
+The modularity of the network is 0.388816
