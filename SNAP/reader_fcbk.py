@@ -164,18 +164,19 @@ if __name__ == "__main__":
 	
 	#for i in range(1,9) :
 	
-	i=5
+	i=1
 	print str(listfic[i])
 	GraphTUN = createTUNGraph(str(listfic[i]))
 	print "Graph: Nodes %d, Edges %d" % (GraphTUN.GetNodes(), GraphTUN.GetEdges())
 	print "Printing graph ... "
-	DrawGViz(GraphTUN, gvlNeato, str(listfic[i])+".png", "graph"+str(listfic[i]))
+	#DrawGViz(GraphTUN, gvlNeato, str(listfic[i])+".png", "graph"+str(listfic[i]))
 	t1 = time.time()
 	
 	#Test of community detection function given in SNAP
 	#Uses the Girvan-Newmann community detection method for large networks
 	CmtyV = TCnComV() #contains the vectors of community
 	modularity = CommunityGirvanNewman(GraphTUN, CmtyV)
+	#modularity = CommunityCNM(GraphTUN, CmtyV)
 	t2 = time.time() - t1
 	print "Execution time : %f" %t2
 	length = 0

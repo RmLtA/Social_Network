@@ -1,0 +1,11 @@
+/*****
+graph1912.edges
+*****/
+
+graph G {
+  graph [splines=false overlap=false]
+  node  [shape=ellipse, width=0.3, height=0.3, label=""]
+  136 ;
+136;
+  label = "\ngraph1912.edges\n";  fontsize=24;
+}

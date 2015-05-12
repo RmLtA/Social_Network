@@ -12,6 +12,15 @@ Execution time : 0.210000
 Communities detected : 11
 The modularity of the network is 0.458131
 
+-->GirvanNewman:
+107.edges
+Creating nodes and edges from the file ....
+Graph: Nodes 1034, Edges 26749
+Printing graph ...
+Execution time : 16795.323000
+Communities detected : 34
+The modularity of the network is 0.518479
+
 348.edges
 Graph: Nodes 224, Edges 3192
 Execution time : 0.012000
@@ -57,6 +66,14 @@ Execution time : 0.127000
 Communities detected : 10
 The modularity of the network is 0.520823
 
+1684.edges
+Creating nodes and edges from the file ....
+Graph: Nodes 786, Edges 14024
+Printing graph ...
+Execution time : 3572.706000
+Communities detected : 69
+The modularity of the network is 0.511961
+
 1912.edges
 Graph: Nodes 747, Edges 30025
 Execution time : 0.099000
@@ -68,6 +85,15 @@ Graph: Nodes 534, Edges 4813
 Execution time : 0.022000
 Communities detected : 10
 The modularity of the network is 0.654974
+
+--> GirvanNewman : 
+3437.edges
+Creating nodes and edges from the file ....
+Graph: Nodes 534, Edges 4813
+Printing graph ...
+Execution time : 236.543000
+Communities detected : 24
+The modularity of the network is 0.649699
 
 3980.edges
 Graph: Nodes 52, Edges 146
