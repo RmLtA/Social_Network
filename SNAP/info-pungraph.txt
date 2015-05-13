@@ -1,0 +1,7 @@
+Python type PUNGraph:
+  Nodes:                    52
+  Edges:                    146
+  Zero Deg Nodes:           0
+  Zero InDeg Nodes:         0
+  Zero OutDeg Nodes:        0
+  NonZero In-Out Deg Nodes: 52

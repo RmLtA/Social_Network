@@ -1,62 +1,62 @@
 /*****
-graph
+graph3980.edges
 *****/
 
 graph G {
   graph [splines=false overlap=false]
-  node  [shape=ellipse, width=0.3, height=0.3]
-  4038 [style=filled, fillcolor="green"];
-  4014 [style=filled, fillcolor="red"];
-  4032 [style=filled, fillcolor="blue"];
-  4027 [style=filled, fillcolor="purple"];
-  4019 [style=filled, fillcolor="yellow"];
-  4026 [style=filled, fillcolor="green"];
-  4023 [style=filled, fillcolor="red"];
-  4003 [style=filled, fillcolor="blue"];
-  4018 [style=filled, fillcolor="purple"];
-  3997 [style=filled, fillcolor="yellow"];
-  4031 [style=filled, fillcolor="green"];
-  4021 [style=filled, fillcolor="red"];
-  3998 [style=filled, fillcolor="blue"];
-  4013 [style=filled, fillcolor="purple"];
-  4004 [style=filled, fillcolor="yellow"];
-  4030 [style=filled, fillcolor="green"];
-  3988 [style=filled, fillcolor="red"];
-  3982 [style=filled, fillcolor="blue"];
-  4002 [style=filled, fillcolor="purple"];
-  4037 [style=filled, fillcolor="yellow"];
-  4020 [style=filled, fillcolor="green"];
-  3995 [style=filled, fillcolor="red"];
-  3993 [style=filled, fillcolor="blue"];
-  3986 [style=filled, fillcolor="purple"];
-  4017 [style=filled, fillcolor="yellow"];
-  3983 [style=filled, fillcolor="green"];
-  3994 [style=filled, fillcolor="red"];
-  3999 [style=filled, fillcolor="blue"];
-  4005 [style=filled, fillcolor="purple"];
-  4009 [style=filled, fillcolor="yellow"];
-  3991 [style=filled, fillcolor="green"];
-  3989 [style=filled, fillcolor="red"];
-  4011 [style=filled, fillcolor="blue"];
-  3992 [style=filled, fillcolor="purple"];
-  3981 [style=filled, fillcolor="yellow"];
-  4000 [style=filled, fillcolor="green"];
-  3985 [style=filled, fillcolor="red"];
-  594 [style=filled, fillcolor="blue"];
-  3996 [style=filled, fillcolor="purple"];
-  4029 [style=filled, fillcolor="yellow"];
-  4001 [style=filled, fillcolor="green"];
-  4025 [style=filled, fillcolor="red"];
-  4016 [style=filled, fillcolor="blue"];
-  4034 [style=filled, fillcolor="purple"];
-  3990 [style=filled, fillcolor="yellow"];
-  4036 [style=filled, fillcolor="green"];
-  4033 [style=filled, fillcolor="red"];
-  4007 [style=filled, fillcolor="blue"];
-  4028 [style=filled, fillcolor="purple"];
-  4012 [style=filled, fillcolor="yellow"];
-  3987 [style=filled, fillcolor="green"];
-  4006 [style=filled, fillcolor="red"];
+  node  [shape=ellipse, width=0.3, height=0.3, label=""]
+  4038 ;
+  4014 ;
+  4032 ;
+  4027 ;
+  4019 ;
+  4026 ;
+  4023 ;
+  4003 ;
+  4018 ;
+  3997 ;
+  4031 ;
+  4021 ;
+  3998 ;
+  4013 ;
+  4004 ;
+  4030 ;
+  3988 ;
+  3982 ;
+  4002 ;
+  4037 ;
+  4020 ;
+  3995 ;
+  3993 ;
+  3986 ;
+  4017 ;
+  3983 ;
+  3994 ;
+  3999 ;
+  4005 ;
+  4009 ;
+  3991 ;
+  3989 ;
+  4011 ;
+  3992 ;
+  3981 ;
+  4000 ;
+  3985 ;
+  594 ;
+  3996 ;
+  4029 ;
+  4001 ;
+  4025 ;
+  4016 ;
+  4034 ;
+  3990 ;
+  4036 ;
+  4033 ;
+  4007 ;
+  4028 ;
+  4012 ;
+  3987 ;
+  4006 ;
   4014 -- 4017;
   4014 -- 4021;
   4014 -- 4023;
@@ -203,5 +203,5 @@ graph G {
   4007 -- 4025;
   3987 -- 4012;
   4006 -- 4027;
-  label = "\ngraph\n";  fontsize=24;
+  label = "\ngraph3980.edges\n";  fontsize=24;
 }
