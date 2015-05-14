@@ -2,6 +2,9 @@ import re
 import os
 from snap import *
 
+#This script create an undirected graph from a ".edges" file and show how to add nodes, edges and colours
+
+#Give colours to the graph
 NIdColorH = TIntStrH()
 list=["green","red","blue","purple","yellow","pink"]
 
@@ -34,11 +37,12 @@ def createTUNGraph(File):
 	return GraphTUN
 	
 if __name__ == "__main__":
+	#specify your file here (warning : there is an ambiguity between sys and snap, using argv[] generates errors)
 	fic = "3980.edges"
 	GraphTUN = createTUNGraph(fic)
 	print "Graph: Nodes %d, Edges %d" % (GraphTUN.GetNodes(), GraphTUN.GetEdges())
 	PrintInfo(GraphTUN, "Python type PUNGraph", "info-pungraph.txt")
 	print "Printing graph ... "
 	
-	DrawGViz(GraphTUN, gvlDot, "graph.png", "graph", True, NIdColorH)
+	DrawGViz(GraphTUN, gvlDot, "graph3980.png", "graph3980", True, NIdColorH)
 	print "Done."

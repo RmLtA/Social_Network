@@ -4,7 +4,8 @@ import time
 from reader_fcbk import createTUNGraph				
 from snap import *
 
-#Computes the Algo 
+#Run community detection algo
+
 if __name__ == "__main__":
 	fic = "3980.edges"
 	GraphTUN1 = createTUNGraph(fic)
@@ -13,6 +14,7 @@ if __name__ == "__main__":
 	t1 = time.time()
 	
 	CmtyV = TCnComV() #contains the vectors of community
+	#run GirvanNewman Algorithm
 	modularity = CommunityGirvanNewman(GraphTUN1, CmtyV)
 	t2 = time.time() - t1
 	length = 0
@@ -27,6 +29,7 @@ if __name__ == "__main__":
 	t1 = time.time()
 	
 	CmtyV = TCnComV() #contains the vectors of community
+	#run CNM Algorithm
 	modularity = CommunityCNM(GraphTUN2, CmtyV)
 	t2 = time.time() - t1
 	
