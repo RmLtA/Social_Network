@@ -1,6 +1,14 @@
 # Social_Network
 Big Data project - 4INFO - INSA Rennes
 
+## Using Snap.py with this project
+You can use 2 main scripts :  
+
+- `communities.py` runs the 2 clustering algorithms (Girvan-Newman & Closet-Newman-Moore) on the network specified into the script. You can modify that if you want to change the used network. At the end, you will have the number of generated clusters and other informations.
+- `printInfo.py` make a picture of the graph with colors. You have to install Graphviz before use that script.
+
+More info about Snap.py on [the website of Stanford SNAP](snap.stanford.edu).  
+
 ## Using Neo4j with this project
 (please go and read text file in the appropriate directory)
 
@@ -55,6 +63,4 @@ To display node `ID` you can modify the style file according to following :
 	  /* what is normally */
 	  caption: '{id}'
 	}
-
-
 		
